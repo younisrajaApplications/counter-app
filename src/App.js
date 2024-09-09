@@ -5,10 +5,11 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Counter Application</h1>
-      <Counter />
-      <Counter />
-      <Counter />
+      <h1>Adkhar Counter</h1>
+      <Counter name={"Alhamdulillah"}/>
+      <Counter name={"Subhan Allah"}/>
+      <Counter name={"Allah u Akbar"}/>
+      <Counter name={"Other Adhkar"}/>
     </div>
   );
 }
