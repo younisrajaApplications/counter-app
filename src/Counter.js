@@ -1,5 +1,5 @@
 import React from "react";
-import { useReducer, useState } from "react";
+import { useReducer } from "react";
 
 function counterReducer(state, action) {
     switch(action.type) {
